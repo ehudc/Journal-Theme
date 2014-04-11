@@ -1,0 +1,3 @@
+### Journal Theme For Tumblr
+
+This is a custom theme I built that has multiple features I find to be handy for Tumblr blogs, such as the options for a fixed header and a fixed navigation bar, an audio embed player (courtesy of [the "Billy" Tumblr Audio Player](http://www.sheepproductions.com/billy)), an option for infinite scrolling, scroll to top and one, two or three columns per page. Also included is an option to add a Google Analytics tracking ID from the theme customize page. An example of the theme (with some of these features turned on) can be viewed [here](http://www.journal--theme.tumblr.com).
