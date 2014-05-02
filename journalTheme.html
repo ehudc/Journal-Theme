@@ -740,14 +740,14 @@
         var nav = $('#navbar').offset().top; // returns number 
         $(window).on("ready scroll resize", function(){ // scroll event
             if (nav < $(window).scrollTop()) {
-                $('#header').css({ height: spacing});
+                $('#header').css({ height: spacing });
                 $('#navbar').css({ position: 'fixed', top:0, left:0, width:'100%', 'z-index':'999', 'background-image': 'url(\'{image:Nav Background}\')' });
-                $('#about-container').css({width: '50%', 'border-top': '2px {color:Text} solid', 'border-bottom':'none'});
+                $('#about-container').css({width: '50%', 'border-top': '2px {color:Text} solid', 'border-bottom':'none' });
             }
             else {
-                $('#header').css({ height: ''});
-                $('#navbar').css({position:'', top:'', left:'', width:'', 'z-index':'', 'background-image': ''});
-                $('#about-container').css({width: '', 'border-top': '', 'border-bottom':''});
+                $('#header').css({ height: '' });
+                $('#navbar').css({ position:'', top:'', left:'', width:'', 'z-index':'', 'background-image': '' });
+                $('#about-container').css({ width: '', 'border-top': '', 'border-bottom':'' });
             }
         });
     });
